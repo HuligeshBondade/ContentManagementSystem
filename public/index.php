@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Embedded CSS */
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,6 +16,10 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
 
         header h1 {
@@ -27,20 +29,30 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
         }
 
         nav ul li {
-            display: inline;
             margin: 0 1rem;
         }
 
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
         }
 
         main {
-            margin: 2rem auto;
+            margin: 7rem auto 2rem auto; 
             max-width: 800px;
             padding: 1rem;
             background-color: #fff;
@@ -57,9 +69,9 @@
             color: #fff;
             text-align: center;
             padding: 1rem 0;
-            position: fixed;
-            width: 100%;
+            position: absolute;
             bottom: 0;
+            width: 100%;
         }
 
         form {
@@ -76,6 +88,8 @@
             margin-bottom: 1rem;
             border: 1px solid #ccc;
             border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         form button {
@@ -85,6 +99,7 @@
             color: #fff;
             border-radius: 4px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
 
         form button:hover {
@@ -93,6 +108,18 @@
 
         article {
             margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        article h2 {
+            margin-top: 0;
+        }
+
+        article p {
+            text-align: justify;
         }
     </style>
     <title>Simple CMS</title>
@@ -103,7 +130,6 @@
         <nav>
             <ul>
                 <li><a href="login.php">Login</a></li>
-                
             </ul>
         </nav>
     </header>
@@ -115,9 +141,7 @@
     </main>
     
     <script>
-        // Embedded JavaScript
         document.addEventListener("DOMContentLoaded", function() {
-            // Example of JavaScript functionality
             console.log("JavaScript is loaded and running!");
         });
     </script>
