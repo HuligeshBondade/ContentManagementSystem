@@ -12,6 +12,7 @@ This Content Management System (CMS) is a web application developed using PHP, X
 - **Delete**: Remove content entries with a confirmation prompt.
 
   ##Snapshots
+  
   ![index](https://github.com/user-attachments/assets/90b820c7-c2f6-4f80-8f8d-de17278a65e7)
   ![admin_dashboard](https://github.com/user-attachments/assets/7c77041e-cefe-4794-9eb1-8500ada244c1)
   ![update_content](https://github.com/user-attachments/assets/2d9fb4fc-175a-455c-a5aa-d70542170c2b)
