@@ -64,7 +64,7 @@ This Content Management System (CMS) is a web application developed using PHP, X
 
 The CMS is also deployed and accessible online at:
 
-[http://cms12.rf.gd/cms/public/](http://cms12.rf.gd/cms/public/)
+[http://cms12.rf.gd/cms/public/](https://cms12.rf.gd/cms/public/)
 
 ## Admin Login
 
